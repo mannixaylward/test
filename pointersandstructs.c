@@ -27,7 +27,6 @@ int main()
     char letter2 = 'b';
     int total = 0;
     
-    //printf("Hello, World, %c, %x , %X, %d \n",letter1, letter1,letter1, letter1);
     int error = sumTwoNumbers(&total, 4, 7);
     printf("Total:  %d\n", total);
 
@@ -37,10 +36,7 @@ int main()
         .age =52,
     };
 
-    //strcpy(Mannix.firstname,"Mannix");
-    //strcpy(Mannix.lastname,"Aylward");
-    //strcpy(Mannix.firstname,"Mannix");
-    //Mannix.age = 52;
+
     printf("By local - %s %s is %d years old\n", Mannix.firstname, Mannix.lastname, Mannix.age);
     error = printPersonByVal(Mannix);
     error = printPersonByRef(&Mannix);
