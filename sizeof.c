@@ -4,7 +4,7 @@ int printstring(char *astring)
 {
     astring[4]='B';
     astring[5]='C';
-    astring[5]='\0';
+    astring[100]='\0';
     printf("String = %s\n",astring);
     return 0;
 }
