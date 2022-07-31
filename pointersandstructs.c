@@ -33,13 +33,15 @@ int main()
     struct person_t Mannix = {
         .firstname="Mannix",
         .lastname="Aylward",
+        .birthday = "28/01/2022",
         .age =52,
     };
-
 
     printf("By local - %s %s is %d years old\n", Mannix.firstname, Mannix.lastname, Mannix.age);
     error = printPersonByVal(Mannix);
     error = printPersonByRef(&Mannix);
+    //printf("Address = %p", Mannix);
+    printf("Address& = %p\n", &Mannix);
     return 0;
 }
 
