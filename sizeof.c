@@ -19,6 +19,9 @@ int main()
     __int32_t e;
     __int64_t f;
     __int128_t g;
+    short int h;
+    int i;
+    long int j;
 
     printf("\n");
     printf("length of a: %ld\n",sizeof(a));
@@ -28,7 +31,10 @@ int main()
     printf("length of e: %ld\n",sizeof(e));
     printf("length of f: %ld\n",sizeof(f));
     printf("length of g: %ld\n",sizeof(g));
-
+    printf("length of g: %ld\n",sizeof(h));
+    printf("length of g: %ld\n",sizeof(i));
+    printf("length of g: %ld\n\n",sizeof(j));
+    
     printf("index 0,1,2 %c,%c,%c\n",a[1+1],a[1],a[2]);
     printf("index 0,1,2 %d,%d,%d\n",b[0],b[1],b[2]);
 
